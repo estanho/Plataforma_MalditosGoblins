@@ -1,0 +1,214 @@
+{
+    "atributos": {
+        "0": {
+            "nome": "Combate",
+            "descricao": "Serve para realizar ataques e defesas dentro do jogo."
+        },
+        "1": {
+            "nome": "Conhecimento",
+            "descricao": "Serve para descobrir se o personagem conhece alguma descricaormação sobre determinado assunto."
+        },
+        "2": {
+            "nome": "Habilidade",
+            "descricao": "Serve para testar as capacidades físicas do personagem. Isto inclui testes que envolvem força, agilidade e resistência física."
+        },
+        "3": {
+            "nome": "Sorte",
+            "descricao": "Serve para testar tudo aquilo que é aleatório e comandado pelo destino."
+        }
+    },
+
+    "cores": {
+        "1": {
+            "nome": "Verde Claro",
+            "bonus_atributo": [2,2,1,1]
+        },
+        "2": {
+            "nome": "Verde",
+            "bonus_atributo": [2,1,1,2]
+        },
+        "3": {
+            "nome": "Verde Escuro",
+            "bonus_atributo": [2,1,2,1]
+        },
+        "4": {
+            "nome": "Amarelo",
+            "bonus_atributo": [1,1,2,2]
+        },
+        "5": {
+            "nome": "Vermelho",
+            "bonus_atributo": [1,2,2,1]
+        },
+        "6": {
+            "nome": "Azul",
+            "bonus_atributo": [1,2,1,2]
+        },
+
+        "d6": 1
+    },
+
+    "ocupacao": {
+        "1": {
+            "nome": "Mercenário",
+            "bonus_atributo": [1,0,1,0],
+            "nivel": {
+                "1": {
+                    "nome": "Mestre de Armas",
+                    "descricao": "Você sempre rola +1 dado em todos os ataques que você fizer lutando com sua arma favorita (Escolha uma)."
+                },
+                "2": {
+                    "nome": "Ataque Brutal",
+                    "descricao": "Uma vez ao dia você pode fazer um ataque brutal, que causa o dobro de dano na vítima."
+                },
+                "3": {
+                    "nome": "Ataque Fatal",
+                    "descricao": "Uma vez ao dia você pode fazer um ataque fatal. Se acertar, a vítima deverá vencer um teste de Sorte (Dificuldade 5) ou morrerá imediatamente."
+                }
+            },
+            "equipamento": "pesado"
+        },
+        "2": {
+            "nome": "Caçador",
+            "bonus_atributo": [1,0,0,1],
+            "nivel": {
+                "1": {
+                    "nome": "Rastrear",
+                    "descricao": "Com um teste bem sucedido de Conhecimento (Dificuldade 3) você pode rastrear qualquer criatura."
+                },
+                "2": {
+                    "nome": "Mira Certeira",
+                    "descricao": "Você ignora a proteção dos seus oponentes."
+                },
+                "3": {
+                    "nome": "Tiro Fatal",
+                    "descricao": "Uma vez ao dia você pode fazer um ataque à distância fatal. Se acertar, a vítima deverá vencer um teste de Sorte (Dificuldade 5) ou morrerá imediatamente."
+                }
+            },
+            "equipamento": "leve"
+        },
+        "3": {
+            "nome": "Gatuno",
+            "bonus_atributo": [0,1,1,0],
+            "nivel": {
+                "1": {
+                    "nome": "Roubar",
+                    "descricao": "Você pode roubar sem ser visto se vencer um teste resistido de Habilidade contra a vítima."
+                },
+                "2": {
+                    "nome": "Armar Armadilhas",
+                    "descricao": "Você pode fazer uma armadilha em qualquer lugar se tiver alguns materiais. A vítima terá que passar em um teste de Sorte (Dificuldade 5) para não cair na sua armadilha."
+                },
+                "3": {
+                    "nome": "Ataque Furtivo",
+                    "descricao": "Se você não foi visto, você pode fazer um ataque furtivo. Se acertar, a vítima deverá fazer um teste de Sorte (Dificuldade 5). Se ela falhar ela morrerá."
+                }
+            },
+            "equipamento": "leve"
+        },
+        "4": {
+            "nome": "Líder",
+            "bonus_atributo": [1,1,0,0],
+            "nivel": {
+                "1": {
+                    "nome": "Grito de Guerra",
+                    "descricao": "Uma vez ao dia você pode dar um grito que permitirá que todos seus alidados rolem 1 dado a mais para se esquivar até o final da batalha."
+                },
+                "2": {
+                    "nome": "Ataque Brutal",
+                    "descricao": "Uma vez ao dia você pode fazer um ataque brutal, que causa o dobro de dano na vítima."
+                },
+                "3": {
+                    "nome": "Ataque Fatal",
+                    "descricao": "Uma vez ao dia você pode fazer um ataque fatal. Se acertar, a vítima deverá fazer um teste de Sorte (Dificuldade). Se ela falhar ela morrerá."
+                },
+                "equipamento": "pesado"
+            }
+        },
+        "5": {
+            "nome": "Piromaníaco",
+            "bonus_atributo": [0,0,1,1],
+            "nivel": {
+                "1": {
+                    "nome": "Resistência",
+                    "descricao": "Você pode fazer um teste de Sorte (Dificuldade 5) quando receber dano de fogo ou explosão de fogo. Se vencer, você não recebe dano."
+                },
+                "2": {
+                    "nome": "Suicídio Explosivo",
+                    "descricao": "Usando sua arma, você pode se explodir e matar TODOS os que estiverem na área da explosão."
+                },
+                "3": {
+                    "nome": "Imunidade",
+                    "descricao": "Você nunca recebe dano com fogo ou explosão."
+                },
+                "equipamento": "explosivo"
+            }
+        },
+        "6": {
+            "nome": "Xamã",
+            "bonus_atributo": [0,1,0,1],
+            "nivel": {
+                "1": {
+                    "nome": "Raio de Energia",
+                    "descricao": "Você pode gastar pontos de magia para fazer ataques a distância. Cada ponto gasto causará um ponto de dano (pode gastar mais para fazer um ataque com mais dano)."
+                },
+                "2": {
+                    "nome": "Cura",
+                    "descricao": "Você pode gastar seus pontos de magia para curar seus aliados. Cada ponto de magia recupera um ponto de vitalidade."
+                },
+                "3": {
+                    "nome": "Petrificar",
+                    "descricao": "Gastando 6 pontos de magia você pode paralisar qualquer criatura."
+                }
+            },
+            "equipamento": "magia"
+        },
+
+        "d6": 1
+    },
+
+    "caracteristicas": {
+        "1": {
+            "nome":"Insano",
+            "descricao": "Você não tem controle de seus atos. Sempre que o mestre quiser, ele pode pedir um teste de Sorte (dificuldade 5). Se você falhar, o mestre poderá decidir um ato idiota para seu personagem fazer."
+        },
+        "2": {
+            "nome":"Fedorento",
+            "descricao": "Você fede e ninguém gosta de ficar perto. Qualquer um que fique por mais de 1 minuto perto de você, poderá ficar nauseado e vomitar."
+        },
+        "3": {
+            "nome":"Cicatrizes",
+            "descricao": "Você não tem controle de seus atos. Sempre que o mestre quiser, ele pode pedir um teste de Sorte (dificuldade 5). Se você falhar, o mestre poderá decidir um ato idiota para seu personagem fazer"
+        },
+        "4": {
+            "nome":"Gordo",
+            "descricao": "Você é obeso e tem problemas em passar em buracos estreitos, se esconder e não consegue correr por muito tempo."
+        },
+        "5": {
+            "nome":"Fala Errado",
+            "descricao": " Você tem algum problema de comunicação (gagueira, língua presa, troca letras, etc) e isso irrita muito os seus companheiros."
+        },
+        "6": {
+            "nome":"Anomalia",
+            "descricao": "Você possui uma anomalia genética (algo comum entre goblins).",
+            
+            "Anomalias": {
+                "2": "Manchas rosas",
+                "3": "Manchas rosas",
+                "4": "Orelhas no sovaco",
+                "5": "Corcunda",
+                "6": "Braço extra atrofiado",
+                "7": "(1 D6) Olhos",
+                "8": "Olhos Gigantes",
+                "9": "Mãos Gigantes",
+                "10": "Duas Cabeças",
+                "11": "Role mais 2 vezes",
+                "12": "Role mais 2 vezes"
+            },
+
+            "d6": 2
+        },
+
+        "d6": 1
+    }
+    
+}
